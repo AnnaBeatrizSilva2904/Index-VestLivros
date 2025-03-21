@@ -1,0 +1,7 @@
+configuração da conta local do GIT:
+git config --global user.name AnnaBeatrizSilva2904
+git config --global user.email annabeatryz2504@gmail.com
+
+Sites que o Gallo recomenda:
+    - https://getbootstrap.com
+    - https://bootswatch.com/
