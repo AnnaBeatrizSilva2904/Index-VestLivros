@@ -1,0 +1,8 @@
+.espacoCard {
+    margin-left: 30px;
+}
+
+.card-body{
+    flex-direction: row;
+    justify-content: space-between;
+}
