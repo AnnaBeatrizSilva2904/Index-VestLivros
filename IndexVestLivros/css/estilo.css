@@ -1,8 +1,33 @@
 .espacoCard {
-    margin-left: 30px;
+    margin: 20px 25px 20px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
 }
 
 .card-body{
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 0;
+    flex: 1;
+}
+
+.card-title {
+    margin: 20px 10px 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    margin: 0px 10px 20px 10px;
+} 
+
+p {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 0;
 }

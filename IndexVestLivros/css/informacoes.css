@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 55px 30px 55px;
+    max-height: max-content;
+}
+
+.card-title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: larger;
+}
+
+.img-fluid {
+    height: 100%;
+    width: auto;
+}
+
+.btn-danger {
+    margin: 30px 55px 0px 55px;
+}

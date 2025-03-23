@@ -3102,19 +3102,19 @@ textarea.form-control-lg {
 
 .btn-danger {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #fc3939;
-  --bs-btn-border-color: #fc3939;
+  --bs-btn-bg: rgba(89, 49, 150, 1);
+  --bs-btn-border-color: rgba(89, 49, 150, 1);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d63030;
-  --bs-btn-hover-border-color: #ca2e2e;
+  --bs-btn-hover-bg: rgba(89, 49, 150, 1);
+  --bs-btn-hover-border-color: rgba(89, 49, 150, 1);
   --bs-btn-focus-shadow-rgb: 252, 87, 87;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #ca2e2e;
-  --bs-btn-active-border-color: #bd2b2b;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-active-bg: rgba(89, 49, 150, 1);
+  --bs-btn-active-border-color: rgba(89, 49, 150, 1);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(89, 49, 150, 1);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #fc3939;
-  --bs-btn-disabled-border-color: #fc3939;
+  --bs-btn-disabled-bg: rgba(89, 49, 150, 1);
+  --bs-btn-disabled-border-color: rgba(89, 49, 150, 1);
 }
 
 .btn-light {
@@ -11819,7 +11819,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 5px #f1ac34;
 }
 .btn-danger:focus {
-  box-shadow: 0 0 5px #fc4d4d;
+  box-shadow: 0 0 5px rgba(89, 49, 150, 1);
 }
 .btn.disabled:focus {
   box-shadow: none;
